@@ -8,7 +8,7 @@ const { MongoClient } = require("mongodb");
 const localUri = "mongodb://localhost/resturantapptest";
 const uri =
   "mongodb+srv://mahmood:9973106236114mm@mongodbtest.l5qtv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const db = new MongoClient(localUri, {
+const db = new MongoClient(uri, {
   useNewUrlParser: true,
 
   useUnifiedTopology: true,
